@@ -1,8 +1,9 @@
+#!/user/bin/env node
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 const chalk = require('chalk');
-const logUpdate = require('log-update');
 const Table = require('cli-table3');
+const logUpdate = require('log-update');
 
 const table = new Table({ head: ['Channel', 'Sub Count', 'Difference'].map(el => chalk.blue(el)) });
 
