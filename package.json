@@ -2,12 +2,9 @@
   "name": "pewds-vs-tseries",
   "version": "1.0.0",
   "description": "PewDiePie vs. T-Series CLI",
-  "main": "index.js",
+  "main": "pewds-vs-tseries.js",
   "author": "syztumGG",
   "license": "MIT",
-  "bin": {
-    "subcounter": "pewds-vs-tseries.js"
-  },
   "dependencies": {
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.2",

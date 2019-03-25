@@ -1,4 +1,3 @@
-#!/user/bin/env node
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 const chalk = require('chalk');
